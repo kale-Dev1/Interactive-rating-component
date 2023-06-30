@@ -7,7 +7,22 @@
   --light-grey: hsl(217, 12%, 63%);
   --medium-grey: hsl(216, 12%, 54%);
   --dark-blue: hsl(213, 19%, 18%);
-  --very-dark-lue: hsl(216, 12%, 8%);
+  --very-dark-blue: hsl(216, 12%, 8%);
 
   --font-size: 15px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-dark-blue);
+  color: var(--white);
+  height: 100vh;
+}
+
+#review {
+  background-color: var(--dark-blue);
+  width: 280px;
+  padding: 30px;
+  border-radius: 10px;
 }

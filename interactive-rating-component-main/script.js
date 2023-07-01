@@ -12,6 +12,8 @@ submit_btn.addEventListener("click", function (e) {
 
 ratings.addEventListener("click", function (e) {
   e.preventDefault();
-  e.target.style.backgroundColor = "gray";
-  console.log(e.target.outerText);
+  [...e.target.parentNode.children].forEach((child) =>
+    child.classList.remove("active")
+  );
+  e.target.classList.toggle("active");
 });

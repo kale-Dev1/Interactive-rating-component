@@ -13,6 +13,7 @@
   --font-size: 15px;
 }
 body {
+  font-family: "Overpass", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,11 +27,12 @@ body {
   width: 280px;
   padding: 30px;
   border-radius: 29px;
-  color: var(--medium-grey);
+  color: var(--light-grey);
 }
 h1 {
-  color: white;
+  color: hsl(217, 7%, 78%);
 }
+
 p {
   line-height: 1.4;
 }
@@ -97,4 +99,8 @@ p {
 }
 .hide {
   display: none;
+}
+#ratings .active {
+  background-color: var(--medium-grey);
+  color: var(--white);
 }

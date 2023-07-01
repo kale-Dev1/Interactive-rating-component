@@ -26,3 +26,9 @@ body {
   padding: 30px;
   border-radius: 10px;
 }
+img {
+  /* border: 1px solid white; */
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--medium-grey);
+}

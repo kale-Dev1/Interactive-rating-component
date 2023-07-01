@@ -21,11 +21,11 @@ body {
   height: 100vh;
 }
 
-#review {
+.card {
   background-color: var(--dark-blue);
   width: 280px;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 29px;
   color: var(--medium-grey);
 }
 h1 {
@@ -57,6 +57,11 @@ p {
   border-radius: 50%;
   color: var(--medium-grey);
 }
+#ratings div:hover {
+  cursor: pointer;
+  background-color: var(--orange);
+  color: var(--white);
+}
 
 .submit-btn {
   background-color: var(--orange);
@@ -66,4 +71,30 @@ p {
   border-radius: 35px;
   text-transform: uppercase;
   margin-top: 20px;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+#thank-you {
+  text-align: center;
+}
+#thank-you .selected {
+  color: var(--orange);
+  background-color: hsla(215, 9%, 27%, 0.555);
+  padding: 5px;
+  margin: 2rem;
+  border-radius: 25px;
+  letter-spacing: 1.8px;
+}
+#thank-you h2 {
+  color: var(--white);
+}
+#thank-you p {
+  line-height: 1.5;
+}
+.hide {
+  display: none;
 }

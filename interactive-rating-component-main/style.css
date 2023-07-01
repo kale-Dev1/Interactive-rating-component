@@ -8,6 +8,7 @@
   --medium-grey: hsl(216, 12%, 54%);
   --dark-blue: hsl(213, 19%, 18%);
   --very-dark-blue: hsl(216, 12%, 8%);
+  --transparent-background: hsla(213, 20%, 18%, 0.325);
 
   --font-size: 15px;
 }
@@ -25,10 +26,44 @@ body {
   width: 280px;
   padding: 30px;
   border-radius: 10px;
+  color: var(--medium-grey);
 }
-img {
+h1 {
+  color: white;
+}
+p {
+  line-height: 1.4;
+}
+.star {
   /* border: 1px solid white; */
   padding: 10px;
   border-radius: 50%;
-  background-color: var(--medium-grey);
+  background-color: hsla(215, 9%, 27%, 0.555);
+}
+
+#ratings {
+  display: flex;
+  justify-content: space-between;
+}
+#ratings div {
+  text-align: center;
+  margin: auto;
+  background-color: hsla(215, 9%, 27%, 0.555);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--medium-grey);
+}
+
+.submit-btn {
+  background-color: var(--orange);
+  color: var(--white);
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  margin-top: 20px;
 }

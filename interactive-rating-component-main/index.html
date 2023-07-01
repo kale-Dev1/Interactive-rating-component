@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <script defer src="script.js"></script>
     <link
       rel="icon"
       type="image/png"
@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <main class="card">
+    <main>
       <div id="review" class="card">
         <img class="star" src="images/icon-star.svg" alt="star" />
         <h1>How did we do?</h1>
@@ -43,14 +43,15 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <!-- <div id="thank-you">
+    <div id="thank-you" class="card hide">
+      <img src="images/illustration-thank-you.svg" alt="illustration" />
       <div class="selected">You selected <span>4</span> out of 5</div>
       <h2>Thank you!</h2>
       <p>
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>
-    </div> -->
+    </div>
 
     <!-- Thank you state end -->
 
